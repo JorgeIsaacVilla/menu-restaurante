@@ -1,0 +1,21 @@
+.component-header{
+    display: flex;
+    padding: 16px 20px;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #0D0D0D;
+    filter: drop-shadow(0px 6px 10px rgba(0, 0, 0, 0.30));
+}
+.logo-restaurante{
+    background-image: url("./imageHeader/Logotipo.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 129px;
+    height: 30px;
+}
+.menu-hamburguesa{
+    background-image: url("./imageHeader/icoMenu.svg");
+    width: 23.922px;
+    height: 17.815px;
+}
