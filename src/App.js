@@ -5,10 +5,14 @@ import { ComponentHeader } from './components/ComponentHeader/ComponentHeader';
 
 function App() {
   return (
-    <div className="App">
-      <ComponentHeader />
-      <ComponentBody />
-      <ComponentFooter />
+    <div className='canva-des-app gradient'>
+      <div className='glass-app'>
+        <div className="App gradient">
+          <ComponentHeader />
+          <ComponentBody />
+          <ComponentFooter />
+        </div>
+      </div>
     </div>
   );
 }
