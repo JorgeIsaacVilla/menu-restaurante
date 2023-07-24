@@ -10,33 +10,33 @@ function Menu4(){
     const menuItem =[
     {pos:1,
     image:imagen1,
-    food:"Bebida1",
-    price:18000,
-    ingredients:"pan, tomate, pollo, quezo, cebolla, salsa"},
+    food:"Jugo De Naranja",
+    price:9000,
+    ingredients:""},
 
     {pos:2,
     image:imagen2,
-    food:"Bebida2",
-    price:18000,
-    ingredients:"pan, tomate, pollo, quezo, cebolla, salsa"},
+    food:"Jugo De Mora",
+    price:9000,
+    ingredients:""},
 
     {pos:3,
     image:imagen3,
-    food:"Bebida3",
-    price:18000,
-    ingredients:"pan, tomate, pollo, quezo, cebolla, salsa"},
+    food:"Jugo De Mango",
+    price:7000,
+    ingredients:""},
 
     {pos:4,
     image:imagen4,
-    food:"Bebida4",
-    price:18000,
-    ingredients:"pan, tomate, pollo, quezo, cebolla, salsa"},
+    food:"Limonada",
+    price:9000,
+    ingredients:""},
 
     {pos:5,
     image:imagen5,
-    food:"Bebida5",
-    price:18000,
-    ingredients:"pan, tomate, pollo, quezo, cebolla, salsa"},
+    food:"Jugo De Uva",
+    price:12000,
+    ingredients:""},
     ]
     return(
         <>

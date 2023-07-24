@@ -10,33 +10,33 @@ function Menu2(){
     const menuItem =[
     {pos:1,
     image:imagen1,
-    food:"Hamburqueza1",
-    price:18000,
-    ingredients:"pan, tomate, pollo, quezo, cebolla, salsa"},
+    food:"Hamburqueza Rodeo",
+    price:23000,
+    ingredients:"Pan | Tomate | Pollo | Quezo | Cebolla | Salsa"},
 
     {pos:2,
     image:imagen2,
-    food:"Hamburqueza2",
+    food:"Hamburqueza Mexicana",
     price:18000,
-    ingredients:"pan, tomate, pollo, quezo, cebolla, salsa"},
+    ingredients:"Pan | Tomate | Pollo | Quezo | Cebolla | Salsa"},
 
     {pos:3,
     image:imagen3,
-    food:"Hamburqueza3",
-    price:18000,
-    ingredients:"pan, tomate, pollo, quezo, cebolla, salsa"},
+    food:"Hamburqueza Asada",
+    price:21900,
+    ingredients:"Carne a la parrilla | Papas | Gaseosa | Quezo Costeño"},
 
     {pos:4,
     image:imagen4,
-    food:"Hamburqueza4",
-    price:18000,
-    ingredients:"pan, tomate, pollo, quezo, cebolla, salsa"},
+    food:"Hamburqueza Ranchera",
+    price:28000,
+    ingredients:"Tomate | Pollo | Quezo | Cebolla | Carne de bufalo"},
 
     {pos:5,
     image:imagen5,
-    food:"Hamburqueza5",
-    price:18000,
-    ingredients:"pan, tomate, pollo, quezo, cebolla, salsa"},
+    food:"Hamburqueza Jumbo",
+    price:42000,
+    ingredients:"Tomate | Tocineta | Quezo | Chicharron | Carne de bufalo"},
     ]
     return(
         <>

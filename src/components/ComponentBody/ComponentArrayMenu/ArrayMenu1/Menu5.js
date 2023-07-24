@@ -10,37 +10,37 @@ function Menu5(){
     const menuItem =[
     {pos:1,
     image:imagen1,
-    food:"Postre1",
-    price:18000,
-    ingredients:"pan, tomate, pollo, quezo, cebolla, salsa"},
+    food:"Postre Home",
+    price:10900,
+    ingredients:"Ceresa | Leche | Crema condensada"},
 
     {pos:2,
     image:imagen2,
-    food:"Postre2",
-    price:18000,
-    ingredients:"pan, tomate, pollo, quezo, cebolla, salsa"},
+    food:"Postre Napolitano",
+    price:11000,
+    ingredients:"Pan | Ceresa"},
 
     {pos:3,
     image:imagen3,
-    food:"Postre3",
-    price:18000,
-    ingredients:"pan, tomate, pollo, quezo, cebolla, salsa"},
+    food:"Postre Cazcanues",
+    price:8000,
+    ingredients:"Choclate | Arequipe | Galleta | Frutos secos"},
 
     {pos:4,
     image:imagen4,
-    food:"Postre4",
-    price:18000,
-    ingredients:"pan, tomate, pollo, quezo, cebolla, salsa"},
+    food:"Postre Casero",
+    price:7000,
+    ingredients:"Leche | Galletas | Arequipe"},
 
     {pos:5,
     image:imagen5,
-    food:"Postre5",
-    price:18000,
-    ingredients:"pan, tomate, pollo, quezo, cebolla, salsa"},
+    food:"Conos De Helado",
+    price:4000,
+    ingredients:"Galleta | (Elige tus sabores favoritos) | Chispas de Chocolate"},
     ]
     return(
         <>
-            <h2 className="tittle-item">Bebidas</h2>
+            <h2 className="tittle-item">Postres</h2>
             <ul>
                 {menuItem.map((item)=>
                 <li key= {item.pos} >

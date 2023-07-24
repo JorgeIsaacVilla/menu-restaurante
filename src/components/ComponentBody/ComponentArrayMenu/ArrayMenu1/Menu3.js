@@ -10,33 +10,33 @@ function Menu3(){
     const menuItem =[
     {pos:1,
     image:imagen1,
-    food:"Asado1",
-    price:18000,
-    ingredients:"pan, tomate, pollo, quezo, cebolla, salsa"},
+    food:"Solomo De Res",
+    price:55000,
+    ingredients:"Carne de res | Yuca | Salsa Tartara"},
 
     {pos:2,
     image:imagen2,
-    food:"Asado2",
-    price:18000,
-    ingredients:"pan, tomate, pollo, quezo, cebolla, salsa"},
+    food:"Cañon De Cerdo",
+    price:50000,
+    ingredients:"Carne de cerdo | Yuca | Salsa Tartar"},
 
     {pos:3,
     image:imagen3,
-    food:"Asado3",
-    price:18000,
-    ingredients:"pan, tomate, pollo, quezo, cebolla, salsa"},
+    food:"Churrasco",
+    price:56000,
+    ingredients:"Carne de res| Papa fritas| Salsa chimichurry"},
 
     {pos:4,
     image:imagen4,
-    food:"Asado4",
-    price:18000,
-    ingredients:"pan, tomate, pollo, quezo, cebolla, salsa"},
+    food:"Punta 350gr.",
+    price:56000,
+    ingredients:"Carne de res| Papa | Salsa chimichurry"},
 
     {pos:5,
     image:imagen5,
-    food:"Asado5",
-    price:18000,
-    ingredients:"pan, tomate, pollo, quezo, cebolla, salsa"},
+    food:"Carne De Bufalo",
+    price:72000,
+    ingredients:"Carne de bufalo| Papa fritas| Salsa chimichurry"},
     ]
     return(
         <>

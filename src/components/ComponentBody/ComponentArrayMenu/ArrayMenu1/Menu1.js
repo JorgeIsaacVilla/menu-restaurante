@@ -11,33 +11,33 @@ function Menu1() {
     const menuItem =[
         {pos:1,
         image: imagen1,
-        food:"pizza1",
-        price:25000,
-        ingredients:"tomate, queso, pollo"},
+        food:"Pizza De Queso Azul",
+        price:52000,
+        ingredients:"salmón | Tomates"},
 
         {pos:2,
         image:imagen2,
-        food:"pizza2",
-        price:17000,
-        ingredients:"tomate, queso, pollo"},
+        food:"Pizza Colombiana",
+        price:48600,
+        ingredients:"Salsa | Queso | chorizo | maís"},
 
         {pos:3,
         image:imagen3,
-        food:"pizza3",
-        price:17000,
-        ingredients:"tomate, queso, pollo"},
+        food:"Pizza Mixta",
+        price:47800,
+        ingredients:"Carnes | Vegetales | Salami | Cábano | Cebolla | Pimientón"},
 
         {pos:4,
         image:imagen4,
-        food:"pizza4",
+        food:"Pizza Perro",
         price:17000,
-        ingredients:"tomate, queso, pollo"},
+        ingredients:"Pollo | Jamon | Quezo | Pimienton | Salchicas"},
 
         {pos:5,
         image:imagen5,
-        food:"pizza5",
-        price:17000,
-        ingredients:"tomate, queso, pollo"},
+        food:"Pizza Megicana",
+        price:14000,
+        ingredients:"Tomate | Queso | Pollo | Salchicon Picante"},
     ];
 
     return(

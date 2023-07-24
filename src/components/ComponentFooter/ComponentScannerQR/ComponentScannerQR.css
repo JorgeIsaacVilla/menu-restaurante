@@ -16,7 +16,7 @@
 .component-header-footer{
     display: flex;
     justify-content: space-between;
-    margin: 24px 16px;
+    padding: 16px 20px;
 }
 .tittle-footer h2{
     margin-left: 16px;
