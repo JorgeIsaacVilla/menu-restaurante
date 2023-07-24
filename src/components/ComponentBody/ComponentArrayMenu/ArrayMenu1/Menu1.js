@@ -1,6 +1,6 @@
 import React from "react";
 import "./Menu.css";
-import imagen1 from "./imageMenu1/imagen1.png";
+import imagen1 from "./imageMenu1/imagen1.jpg";
 import imagen2 from "./imageMenu1/imagen2.jpg";
 import imagen3 from "./imageMenu1/imagen3.jpg";
 import imagen4 from "./imageMenu1/imagen4.jpg";
@@ -9,7 +9,6 @@ import imagen5 from "./imageMenu1/imagen5.jpg";
 function Menu1() {
 
     const menuItem =[
-
         {pos:1,
         image: imagen1,
         food:"pizza1",
@@ -39,7 +38,6 @@ function Menu1() {
         food:"pizza5",
         price:17000,
         ingredients:"tomate, queso, pollo"},
-
     ];
 
     return(

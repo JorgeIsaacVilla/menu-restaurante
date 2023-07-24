@@ -6,8 +6,8 @@
     margin-left: 16px; 
 }
 .description-swiper{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     flex-direction: column;
     display: flex;
     align-items: center;
@@ -24,7 +24,7 @@
   }
   .line{
     width: 90%;
-    height: 1px;
+    height: 2px;
     background: #1C1C1C;
     margin: auto;
   }
@@ -41,8 +41,8 @@
   .swiper-slide img {
     display: block;
     object-fit: cover;
-    width: 80px;
-    height: 81px;
+    width: 90px;
+    height: 91px;
     border-radius: 17px;
     box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.30);
     margin-bottom: 5px;

@@ -12,7 +12,10 @@ import image3 from "./imageComponentSliderCategory/Rectangle3.png";
 import image4 from "./imageComponentSliderCategory/Rectangle4.png";
 import image5 from "./imageComponentSliderCategory/Rectangle5.png";
 
+import { Link } from "react-scroll";
+
 function ComponentSlider() {
+
     return(
         <>
         {/*https://codesandbox.io/p/sandbox/lmvldw?file=%2Fsrc%2Fmain.jsx%3A8%2C5 */}
@@ -29,7 +32,9 @@ function ComponentSlider() {
                 <SwiperSlide>
                     <div className="description-swiper">
                         <img src={image1} />
-                        <h3>Pizzas</h3>
+                        <Link to="menu1" smooth={true} duration={500}>
+                            <h3>Pizzas</h3>
+                        </Link>
                     </div>
                 </SwiperSlide>
 

@@ -36,10 +36,10 @@ ul li img {
 }
 .ingredients{
     margin: 0;
-    margin-left: 16px;
+    margin-left: 14px;
     color:#EAEAEA;
 }
 .price{
     color:#EAEAEA;
-    margin: 0 24px;
+    margin: 0 0 24px 0;
 }
