@@ -9,7 +9,6 @@ import domicilio from "./imageComponentMenu/icoDomicilio.svg";
 function ComponentMenu() {
 
     const [menuVisible, setMenuVisible] = useState(true);
-
     const toggleMenu = () =>{
         setMenuVisible(!menuVisible);
     };
@@ -49,12 +48,12 @@ function ComponentMenu() {
                     <h2 className="tittle-redes-social">Síguenos</h2>
                     <ul>
                         {redesItem.map((redes)=>
-                        <li className="item-redes" key={redes.redSocial}>
+                        <div className="item-redes" key={redes.redSocial}>
                             <a href={redes.linkRedSocial} >
                                 <img src={redes.imageRedSocial} />
                                 <p> {redes.userRedSocial} </p>
                             </a>
-                        </li>
+                        </div>
                         )}
                     </ul>
                     <div className="line"></div>
