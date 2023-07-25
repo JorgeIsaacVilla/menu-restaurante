@@ -6,11 +6,11 @@ import imagen3 from "./imageMenu3/imagen3.jpg";
 import imagen4 from "./imageMenu3/imagen4.jpg";
 import imagen5 from "./imageMenu3/imagen5.jpg";
 
-function Menu3(){
+function Menu3({sectionId}){
     const menuItem =[
     {pos:1,
     image:imagen1,
-    food:"Solomo De Res",
+    food:"Lomo De Res",
     price:55000,
     ingredients:"Carne de res | Yuca | Salsa Tartara"},
 
@@ -40,7 +40,7 @@ function Menu3(){
     ]
     return(
         <>
-            <h2 className="tittle-item">Asados</h2>
+            <h2 className="tittle-item" id={sectionId} >Asados</h2>
             <ul>
                 {menuItem.map((item)=>
                 <li key= {item.pos} >
@@ -55,7 +55,7 @@ function Menu3(){
                                 </p>
                         </div>
                     </div>
-                    <p className="price"> ${item.price} </p>
+                    <p className="price"> <strong>${item.price}</strong> </p>
                 </li>
                 )}
             </ul>

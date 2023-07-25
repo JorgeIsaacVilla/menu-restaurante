@@ -18,4 +18,6 @@
     background-image: url("./imageHeader/icoMenu.svg");
     width: 23.922px;
     height: 17.815px;
+
+    cursor: pointer;
 }

@@ -6,7 +6,7 @@ import imagen3 from "./imageMenu5/imagen3.jpg";
 import imagen4 from "./imageMenu5/imagen4.jpg";
 import imagen5 from "./imageMenu5/imagen5.jpg";
 
-function Menu5(){
+function Menu5({sectionId}){
     const menuItem =[
     {pos:1,
     image:imagen1,
@@ -40,7 +40,7 @@ function Menu5(){
     ]
     return(
         <>
-            <h2 className="tittle-item">Postres</h2>
+            <h2 className="tittle-item" id={sectionId}>Postres</h2>
             <ul>
                 {menuItem.map((item)=>
                 <li key= {item.pos} >
@@ -55,7 +55,7 @@ function Menu5(){
                                 </p>
                         </div>
                     </div>
-                    <p className="price"> ${item.price} </p>
+                    <p className="price"> <strong>${item.price}</strong> </p>
                 </li>
                 )}
             </ul>

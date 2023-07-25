@@ -6,41 +6,41 @@ import imagen3 from "./imageMenu2/imagen3.jpg";
 import imagen4 from "./imageMenu2/imagen4.jpg";
 import imagen5 from "./imageMenu2/imagen5.jpg";
 
-function Menu2(){
+function Menu2({sectionId}){
     const menuItem =[
     {pos:1,
     image:imagen1,
-    food:"Hamburqueza Rodeo",
+    food:"Hamburguesa Rodeo",
     price:23000,
     ingredients:"Pan | Tomate | Pollo | Quezo | Cebolla | Salsa"},
 
     {pos:2,
     image:imagen2,
-    food:"Hamburqueza Mexicana",
+    food:"Hamburguesa Mexicana",
     price:18000,
     ingredients:"Pan | Tomate | Pollo | Quezo | Cebolla | Salsa"},
 
     {pos:3,
     image:imagen3,
-    food:"Hamburqueza Asada",
+    food:"Hamburguesa Asada",
     price:21900,
     ingredients:"Carne a la parrilla | Papas | Gaseosa | Quezo Costeño"},
 
     {pos:4,
     image:imagen4,
-    food:"Hamburqueza Ranchera",
+    food:"Hamburguesa Ranchera",
     price:28000,
     ingredients:"Tomate | Pollo | Quezo | Cebolla | Carne de bufalo"},
 
     {pos:5,
     image:imagen5,
-    food:"Hamburqueza Jumbo",
+    food:"Hamburguesa Jumbo",
     price:42000,
     ingredients:"Tomate | Tocineta | Quezo | Chicharron | Carne de bufalo"},
     ]
     return(
         <>
-            <h2 className="tittle-item">Hamburguesa</h2>
+            <h2 className="tittle-item" id={sectionId}>Hamburguesa</h2>
             <ul>
                 {menuItem.map((item)=>
                 <li key= {item.pos} >
@@ -55,7 +55,7 @@ function Menu2(){
                                 </p>
                         </div>
                     </div>
-                    <p className="price"> ${item.price} </p>
+                    <p className="price"> <strong>${item.price}</strong> </p>
                 </li>
                 )}
             </ul>

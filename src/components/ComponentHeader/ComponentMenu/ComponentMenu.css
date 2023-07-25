@@ -102,4 +102,13 @@
         height: 30px;
         background-repeat: no-repeat;
         background-position: center;
+
+        cursor: pointer;
     }
+
+    @media screen and (min-width: 680px) {
+        .component-menu {
+            width:400px;
+            height: 860px;
+        }
+      }

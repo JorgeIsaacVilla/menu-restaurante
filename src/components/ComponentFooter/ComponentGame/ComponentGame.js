@@ -46,7 +46,7 @@ function ComponentGame() {
                         <div className="scroll-game">
                             <ul>
                                 {gamesITem.map((game)=>
-                                <div className="games">
+                                <div className="games" key={game.imageGame}>
                                     <a href={game.url}>
                                         <img src={game.imageGame} />
                                         <h3> {game.nameGame} </h3>
@@ -56,6 +56,7 @@ function ComponentGame() {
                             </ul>
                         </div>
                     </div>
+                    
                 </div>
 
                 <div className="footer-component-menu">

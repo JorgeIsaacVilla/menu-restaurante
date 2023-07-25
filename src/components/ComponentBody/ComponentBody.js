@@ -9,18 +9,24 @@ import { Menu5 } from "./ComponentArrayMenu/ArrayMenu1/Menu5";
 
 function ComponentBody() {
 
-        return(
-            <>
-                <ComponentSlider/>
-                <div className="component-body">
-                    <Menu1 />
-                    <Menu2 />
-                    <Menu3 />
-                    <Menu4 />
-                    <Menu5 />
-                </div>
-            </>
-        )
+  return (
+    <>
+      <ComponentSlider 
+      targetSection1="section1" 
+      targetSection2="section2" 
+      targetSection3="section3" 
+      targetSection4="section4" 
+      targetSection5="section5"
+      />
+      <div className="component-body">
+        <Menu1 sectionId="section1" />
+        <Menu2 sectionId="section2"/>
+        <Menu3 sectionId="section3"/>
+        <Menu4 sectionId="section4"/>
+        <Menu5 sectionId="section5"/>
+      </div>
+    </>
+  );
 }
 
 export { ComponentBody };

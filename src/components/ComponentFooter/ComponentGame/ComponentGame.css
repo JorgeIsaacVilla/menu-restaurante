@@ -44,6 +44,8 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 32px;
+
+    cursor: pointer;
 }
 .games img{
     width: 75px;
@@ -60,3 +62,10 @@
     line-height: 32px;
     margin-left: 16px;
 }
+
+@media screen and (min-width: 680px) {
+    .component-game {
+        width:400px;
+        height: 860px;
+    }
+  }
