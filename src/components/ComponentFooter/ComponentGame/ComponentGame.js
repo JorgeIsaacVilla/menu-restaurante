@@ -14,24 +14,25 @@ function ComponentGame() {
     };
 
     const gamesITem =[
-        {url:"",
+
+        {url:"https://jorgeisaacvilla.github.io/gamesHtml/PacmanHTML/index.html",
+         imageGame:pacman,
+         nameGame:"pacman",
+        },
+
+        {url:"https://jorgeisaacvilla.github.io/gamesHtml/TetrisHTML//index.html",
          imageGame:tetris,
          nameGame:"Tetris",
         },
 
-        {url:"",
+        {url:"https://jorgeisaacvilla.github.io/gamesHtml/TetrisHTML//index.html",
          imageGame:snake,
          nameGame:"Snake",
         },
 
-        {url:"",
+        {url:"https://jorgeisaacvilla.github.io/gamesHtml/FlappyDinoHTML/index.html",
          imageGame:dino,
          nameGame:"dino",
-        },
-
-        {url:"",
-         imageGame:pacman,
-         nameGame:"pacman",
         },
       
     ];
