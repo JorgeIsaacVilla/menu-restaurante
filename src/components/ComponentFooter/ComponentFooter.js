@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { ComponentScannerQR } from "./ComponentScannerQR/ComponentScannerQR";
+import { ScannerQR } from "./ScannerQR/ScannerQR";
 import "./ComponentFooter.css"
-import { ComponentGame } from "./ComponentGame/ComponentGame";
+import { Game } from "./Game/Game";
 
 function ComponentFooter() {
 
@@ -20,8 +20,8 @@ function ComponentFooter() {
 
     return(
         <>
-            {gameVisible && <ComponentGame />}
-            {scannerQrVisible && <ComponentScannerQR />}
+            {gameVisible && <Game />}
+            {scannerQrVisible && <ScannerQR />}
             <div className="component-footer">
             <a
             href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`}

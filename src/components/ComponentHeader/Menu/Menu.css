@@ -97,7 +97,7 @@
         margin: 0;
     }
     .menu-closed{
-        background-image: url("../imageHeader/icoMenuClosed.svg");
+        background-image: url("../imgHeader/icoMenuClosed.svg");
         width: 30px;
         height: 30px;
         background-repeat: no-repeat;

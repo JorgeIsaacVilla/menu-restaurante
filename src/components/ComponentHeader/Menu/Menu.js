@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import "./ComponentMenu.css";
-import instagram from "./imageComponentMenu/icoInstagram.svg";
-import faceboock from "./imageComponentMenu/icoFacebook.svg";
-import twitter from "./imageComponentMenu/icoTwitter.svg";
-import tiktok from "./imageComponentMenu/icoTwitter.svg";
-import domicilio from "./imageComponentMenu/icoDomicilio.svg";
+import "./Menu.css";
+import instagram from "./imgMenu/icoInstagram.svg";
+import faceboock from "./imgMenu/icoFacebook.svg";
+import twitter from "./imgMenu/icoTwitter.svg";
+import tiktok from "./imgMenu/icoTwitter.svg";
+import domicilio from "./imgMenu/icoDomicilio.svg";
 
-function ComponentMenu() {
+function Menu() {
 
     const [menuVisible, setMenuVisible] = useState(true);
     const toggleMenu = () =>{
@@ -79,4 +79,4 @@ function ComponentMenu() {
     );
     
 }
-export { ComponentMenu };
+export { Menu };

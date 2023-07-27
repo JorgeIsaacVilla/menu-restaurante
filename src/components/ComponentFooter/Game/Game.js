@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import "./ComponentGame.css";
+import "./Game.css";
 
-import tetris from "./imageGame/tetris.png";
-import snake from "./imageGame/snake.png";
-import dino from "./imageGame/dino.png"
-import pacman from "./imageGame/pacman.png"
+import tetris from "./imgGame/tetris.png";
+import snake from "./imgGame/snake.png";
+import dino from "./imgGame/dino.png"
+import pacman from "./imgGame/pacman.png"
 
-function ComponentGame() {
+function Game() {
 
     const [gameVisible, setGameVisible] = useState(true);
     const toggleGame = () =>{
@@ -75,4 +75,4 @@ function ComponentGame() {
         </>
     );
 }
-export { ComponentGame }
+export { Game }

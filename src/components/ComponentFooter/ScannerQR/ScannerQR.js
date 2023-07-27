@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import "./ComponentScannerQR.css"
+import "./ScannerQR.css"
 
-import imageNequi from "./imageScannerQR/icoNequi.svg"
-import imageBancolombia from "./imageScannerQR/icoBancolombia.svg"
-import imagenWeb from "./imageScannerQR/icoWeb.svg"
+import imageNequi from "./imgScannerQR/icoNequi.svg"
+import imageBancolombia from "./imgScannerQR/icoBancolombia.svg"
+import imagenWeb from "./imgScannerQR/icoWeb.svg"
 
-import imageQrNequi from "./imageScannerQR/imageQrNequi.PNG"
-import imageQrBancolombia from "./imageScannerQR/imageQrBancolombia.PNG"
-import imageQrWeb from "./imageScannerQR/imageQrWeb.PNG"
+import imgQrNequi from "./imgScannerQR/imgQrNequi.PNG"
+import imgQrBancolombia from "./imgScannerQR/imgQrBancolombia.PNG"
+import imgQrWeb from "./imgScannerQR/imgQrWeb.PNG"
 
-function ComponentScannerQR() {
+function ScannerQR() {
 
     const [scannerQrVisible, setScannerQrVisible] = useState(true);
     const toggleScannerQr = () => {
@@ -20,15 +20,15 @@ function ComponentScannerQR() {
 
         {imagenApp:imageNequi,
          nameAPP:"Nequi",
-         QrApp:imageQrNequi},
+         QrApp:imgQrNequi},
 
          {imagenApp:imageBancolombia,
          nameAPP:"Bancolombia",
-         QrApp:imageQrBancolombia},
+         QrApp:imgQrBancolombia},
 
          {imagenApp:imagenWeb,
          nameAPP:"Web",
-         QrApp:imageQrWeb},
+         QrApp:imgQrWeb},
 
     ];
     
@@ -75,4 +75,4 @@ function ComponentScannerQR() {
         </>
     )
 }
-export { ComponentScannerQR };
+export { ScannerQR };

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./ComponentHeader.css";
-import { ComponentMenu } from "./ComponentMenu/ComponentMenu";
+import { Menu } from "./Menu/Menu";
 
 function ComponentHeader() {
 
@@ -12,7 +12,7 @@ function ComponentHeader() {
 
     return(
         <>
-            {menuVisible && <ComponentMenu />}
+            {menuVisible && <Menu />}
             <div className="component-header">
                 <div className="logo-restaurante"></div>
                 <div className="menu-hamburguesa" onClick={toggleMenu}></div>
