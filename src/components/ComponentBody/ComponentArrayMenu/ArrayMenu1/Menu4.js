@@ -1,10 +1,10 @@
 import React from "react";
 import "./Menu.css";
-import imagen1 from "./imageMenu4/imagen1.jpg";
-import imagen2 from "./imageMenu4/imagen2.jpg";
-import imagen3 from "./imageMenu4/imagen3.jpg";
-import imagen4 from "./imageMenu4/imagen4.jpg";
-import imagen5 from "./imageMenu4/imagen5.jpg";
+import imagen1 from "./imgMenu4/img1.jpg";
+import imagen2 from "./imgMenu4/img2.jpg";
+import imagen3 from "./imgMenu4/img3.jpg";
+import imagen4 from "./imgMenu4/img4.jpg";
+import imagen5 from "./imgMenu4/img5.jpg";
 
 function Menu4({sectionId}){
     const menuItem =[
