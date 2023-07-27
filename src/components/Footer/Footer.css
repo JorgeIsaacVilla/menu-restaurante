@@ -1,0 +1,39 @@
+.component-footer{
+    background: #0D0D0D;
+    
+    filter: drop-shadow(0px -6px 10px rgba(0, 0, 0, 0.30));
+    height: 55px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.whatsapp{
+    background-image: url("./imgFooter/icoWhatsapp.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 54px;
+    height: 54px;
+
+    cursor: pointer;
+}
+.qr{
+    width: 54px;
+    height: 54px;
+    border-radius: 100%;
+    background: #DCB342;
+    margin-top: -16px;
+    background-image: url("./imgFooter/icoQr.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    cursor: pointer;
+}
+.game{
+    background-image: url("./imgFooter/icoGame.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 54px;
+    height: 54px;
+
+    cursor: pointer;
+}
+

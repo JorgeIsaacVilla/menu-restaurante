@@ -1,0 +1,46 @@
+.tittle-item{
+color: #EAEAEA;
+font-size: 28px;
+font-weight: 700;
+line-height: 22px;
+margin-left: 16px; 
+}
+.item-contend{
+    display: flex;
+    margin-bottom: 16px;
+}
+ul{
+    list-style:none;
+    margin: 16px;
+    padding: 0;
+}
+ul li {
+   /* text-decoration: none;
+    line-height: 1;
+    display: block;*/
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+ul li img {
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    background: lightgray 50% / cover no-repeat;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.30);
+}
+.tittle-food{
+    margin: 0;
+    margin-left: 14px;
+    color:#EAEAEA;
+}
+.ingredients{
+    margin: 0;
+    margin-left: 14px;
+    color:#EAEAEA;
+    font-size: 12px;
+}
+.price{
+    color:#EAEAEA;
+    margin: 0 0 24px 0;
+}
