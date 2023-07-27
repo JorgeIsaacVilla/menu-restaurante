@@ -6,11 +6,11 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { FreeMode, Pagination } from "swiper/modules";
 
-import image1 from "./imgSliderCat/Rectangle1.png";
-import image2 from "./imgSliderCat/Rectangle2.png";
-import image3 from "./imgSliderCat/Rectangle3.png";
-import image4 from "./imgSliderCat/Rectangle4.png";
-import image5 from "./imgSliderCat/Rectangle5.png";
+import image1 from "./imgSliderCat/m1.png";
+import image2 from "./imgSliderCat/m2.png";
+import image3 from "./imgSliderCat/m3.png";
+import image4 from "./imgSliderCat/m4.png";
+import image5 from "./imgSliderCat/m5.png";
 
 function Slider({ targetSection1,targetSection2, targetSection3, targetSection4, targetSection5 }) {
 
