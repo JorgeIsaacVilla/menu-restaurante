@@ -1,11 +1,11 @@
 import React from "react";
 import "./Body.css";
 import { ComponentSlider } from "./SliderCategory/ComponentSlider";
-import { Menu1 } from "./ArrayMenu/ArrayMenu1/Menu1";
-import { Menu2 } from "./ArrayMenu/ArrayMenu1/Menu2";
-import { Menu3 } from "./ArrayMenu/ArrayMenu1/Menu3";
-import { Menu4 } from "./ArrayMenu/ArrayMenu1/Menu4";
-import { Menu5 } from "./ArrayMenu/ArrayMenu1/Menu5";
+import { Menu1 } from "./ArrayMenu/Menu1";
+import { Menu2 } from "./ArrayMenu/Menu2";
+import { Menu3 } from "./ArrayMenu/Menu3";
+import { Menu4 } from "./ArrayMenu/Menu4";
+import { Menu5 } from "./ArrayMenu/Menu5";
 
 function Body() {
 
