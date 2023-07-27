@@ -1,6 +1,6 @@
 import React from "react";
 import "./Body.css";
-import { ComponentSlider } from "./SliderCategory/ComponentSlider";
+import { Slider } from "./SliderCategory/Slider";
 import { Menu1 } from "./ArrayMenu/Menu1";
 import { Menu2 } from "./ArrayMenu/Menu2";
 import { Menu3 } from "./ArrayMenu/Menu3";
@@ -11,7 +11,7 @@ function Body() {
 
   return (
     <>
-      <ComponentSlider 
+      <Slider 
       targetSection1="section1" 
       targetSection2="section2" 
       targetSection3="section3" 

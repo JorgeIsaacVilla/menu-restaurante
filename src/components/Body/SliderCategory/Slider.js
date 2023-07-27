@@ -1,18 +1,18 @@
 import React, { useRef, useState } from "react";
-import "./ComponentSlider.css";
+import "./Slider.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { FreeMode, Pagination } from "swiper/modules";
 
-import image1 from "./imageComponentSliderCategory/Rectangle1.png";
-import image2 from "./imageComponentSliderCategory/Rectangle2.png";
-import image3 from "./imageComponentSliderCategory/Rectangle3.png";
-import image4 from "./imageComponentSliderCategory/Rectangle4.png";
-import image5 from "./imageComponentSliderCategory/Rectangle5.png";
+import image1 from "./imgSliderCat/Rectangle1.png";
+import image2 from "./imgSliderCat/Rectangle2.png";
+import image3 from "./imgSliderCat/Rectangle3.png";
+import image4 from "./imgSliderCat/Rectangle4.png";
+import image5 from "./imgSliderCat/Rectangle5.png";
 
-function ComponentSlider({ targetSection1,targetSection2, targetSection3, targetSection4, targetSection5 }) {
+function Slider({ targetSection1,targetSection2, targetSection3, targetSection4, targetSection5 }) {
 
     const sliderITem =[
 
@@ -79,4 +79,4 @@ function ComponentSlider({ targetSection1,targetSection2, targetSection3, target
   );
 }
 
-export { ComponentSlider };
+export { Slider };
