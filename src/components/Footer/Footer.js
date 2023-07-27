@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { ScannerQR } from "./ScannerQR/ScannerQR";
-import "./ComponentFooter.css"
+import "./Footer.css"
 import { Game } from "./Game/Game";
 
-function ComponentFooter() {
+function Footer() {
 
     const phoneNumber = "3218828546";
     const message = "Hola! Te envío el comprobante"
@@ -35,4 +35,4 @@ function ComponentFooter() {
     )
 }
 
-export {ComponentFooter};
+export {Footer};

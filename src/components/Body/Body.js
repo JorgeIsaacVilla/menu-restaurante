@@ -1,5 +1,5 @@
 import React from "react";
-import "./ComponentBody.css";
+import "./Body.css";
 import { ComponentSlider } from "./SliderCategory/ComponentSlider";
 import { Menu1 } from "./ArrayMenu/ArrayMenu1/Menu1";
 import { Menu2 } from "./ArrayMenu/ArrayMenu1/Menu2";
@@ -7,7 +7,7 @@ import { Menu3 } from "./ArrayMenu/ArrayMenu1/Menu3";
 import { Menu4 } from "./ArrayMenu/ArrayMenu1/Menu4";
 import { Menu5 } from "./ArrayMenu/ArrayMenu1/Menu5";
 
-function ComponentBody() {
+function Body() {
 
   return (
     <>
@@ -29,4 +29,4 @@ function ComponentBody() {
   );
 }
 
-export { ComponentBody };
+export { Body };

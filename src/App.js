@@ -1,15 +1,15 @@
 import './App.css';
-import { ComponentBody } from './components/ComponentBody/ComponentBody';
-import { ComponentFooter } from './components/ComponentFooter/ComponentFooter';
-import { ComponentHeader } from './components/ComponentHeader/ComponentHeader';
+import { Body } from './components/Body/Body';
+import { Footer } from './components/Footer/Footer';
+import { Header } from './components/Header/Header';
 
 function App() {
   return (
     <div className='canva-des-app'>
       <div className="App gradient">
-        <ComponentHeader />
-        <ComponentBody />
-        <ComponentFooter />
+        <Header />
+        <Body />
+        <Footer />
       </div>
     </div>
   );

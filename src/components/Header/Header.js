@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "./ComponentHeader.css";
+import "./Header.css";
 import { Menu } from "./Menu/Menu";
 
-function ComponentHeader() {
+function Header() {
 
     const [menuVisible, setMenuVisible] = useState(false);
 
@@ -21,4 +21,4 @@ function ComponentHeader() {
     );
 }
 
-export {ComponentHeader};
+export {Header};
