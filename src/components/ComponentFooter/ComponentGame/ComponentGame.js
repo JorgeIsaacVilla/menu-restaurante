@@ -3,7 +3,8 @@ import "./ComponentGame.css";
 
 import tetris from "./imageGame/tetris.png";
 import snake from "./imageGame/snake.png";
-import pingPong from "./imageGame/ping-pong.png"
+import dino from "./imageGame/dino.png"
+import pacman from "./imageGame/pacman.png"
 
 function ComponentGame() {
 
@@ -19,14 +20,19 @@ function ComponentGame() {
         },
 
         {url:"",
-        imageGame:snake,
-        nameGame:"Snake",
-       },
+         imageGame:snake,
+         nameGame:"Snake",
+        },
 
-       {url:"",
-       imageGame:pingPong,
-       nameGame:"Ping Pong",
-      },
+        {url:"",
+         imageGame:dino,
+         nameGame:"dino",
+        },
+
+        {url:"",
+         imageGame:pacman,
+         nameGame:"pacman",
+        },
       
     ];
 
