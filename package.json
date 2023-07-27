@@ -2,7 +2,7 @@
   "name": "menu-restaurante",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jorgeisaacvilla.github.io/menu-restaurante",
+  "homepage": "http://JorgeIsaacVilla.github.io/menu-restaurante",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
