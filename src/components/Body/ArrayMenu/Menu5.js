@@ -12,11 +12,11 @@ function Menu5({sectionId}){
     image:imagen1,
     food:"Postre Home",
     price:10900,
-    ingredients:"Ceresa | Leche | Crema condensada"},
+    ingredients:"Ceresa | Leche | Crema Condensada"},
 
     {pos:2,
     image:imagen2,
-    food:"Postre Napolitano",
+    food:"Postre Napoleón",
     price:11000,
     ingredients:"Pan | Ceresa"},
 
