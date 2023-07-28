@@ -19,7 +19,7 @@ function Menu1({sectionId}) {
         image:imagen2,
         food:"Pizza Colombiana",
         price:48600,
-        ingredients:"Salsa | Queso | chorizo | Maíz"},
+        ingredients:"Salsa | Queso | Chorizo | Maíz"},
 
         {pos:3,
         image:imagen3,
