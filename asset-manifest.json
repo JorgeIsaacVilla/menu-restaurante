@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/menu-restaurante/static/css/main.0658a1f2.css",
-    "main.js": "/menu-restaurante/static/js/main.bc4d803e.js",
+    "main.js": "/menu-restaurante/static/js/main.54bbdb88.js",
     "static/js/787.b02a4c87.chunk.js": "/menu-restaurante/static/js/787.b02a4c87.chunk.js",
     "static/media/img4.jpg": "/menu-restaurante/static/media/img4.69fb5f19091d2dd94c6c.jpg",
     "static/media/img5.jpg": "/menu-restaurante/static/media/img5.a27d4682dfa8b75e2c1b.jpg",
@@ -28,17 +28,18 @@
     "static/media/icoGame.svg": "/menu-restaurante/static/media/icoGame.f05ba468f87caaf95f55.svg",
     "static/media/icoWhatsapp.svg": "/menu-restaurante/static/media/icoWhatsapp.e79a9a45bae0299df2c0.svg",
     "static/media/icoNequi.svg": "/menu-restaurante/static/media/icoNequi.a68c35b71494254d7ce51d42e3b5c8cf.svg",
+    "static/media/icoTiktok.svg": "/menu-restaurante/static/media/icoTiktok.570e27795990969aa201c3f92de018ee.svg",
     "static/media/icoMenu.svg": "/menu-restaurante/static/media/icoMenu.a49ecbb36a63d649633d.svg",
     "index.html": "/menu-restaurante/index.html",
     "static/media/imgQrWeb.PNG": "/menu-restaurante/static/media/imgQrWeb.5d1790851040394f9903.PNG",
     "static/media/icoFacebook.svg": "/menu-restaurante/static/media/icoFacebook.6cc52324dc55a682532467a85d4083f8.svg",
     "static/media/icoMenuClosed.svg": "/menu-restaurante/static/media/icoMenuClosed.478f055db0a889a2e2a9.svg",
     "main.0658a1f2.css.map": "/menu-restaurante/static/css/main.0658a1f2.css.map",
-    "main.bc4d803e.js.map": "/menu-restaurante/static/js/main.bc4d803e.js.map",
+    "main.54bbdb88.js.map": "/menu-restaurante/static/js/main.54bbdb88.js.map",
     "787.b02a4c87.chunk.js.map": "/menu-restaurante/static/js/787.b02a4c87.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0658a1f2.css",
-    "static/js/main.bc4d803e.js"
+    "static/js/main.54bbdb88.js"
   ]
 }
