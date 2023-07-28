@@ -3,7 +3,7 @@ import "./Menu.css";
 import instagram from "./imgMenu/icoInstagram.svg";
 import faceboock from "./imgMenu/icoFacebook.svg";
 import twitter from "./imgMenu/icoTwitter.svg";
-import tiktok from "./imgMenu/icoTwitter.svg";
+import tiktok from "./imgMenu/icoTiktok.svg";
 import domicilio from "./imgMenu/icoDomicilio.svg";
 
 function Menu() {
