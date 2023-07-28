@@ -17,22 +17,22 @@ function Game() {
 
         {url:"https://jorgeisaacvilla.github.io/gamesHtml/PacmanHTML/index.html",
          imageGame:pacman,
-         nameGame:"pacman",
+         nameGame:"Pacman",
         },
 
-        {url:"https://jorgeisaacvilla.github.io/gamesHtml/TetrisHTML//index.html",
+        {url:"https://jorgeisaacvilla.github.io/gamesHtml/TetrisHTML/index.html",
          imageGame:tetris,
          nameGame:"Tetris",
         },
 
-        {url:"https://jorgeisaacvilla.github.io/gamesHtml/TetrisHTML//index.html",
+        {url:"https://jorgeisaacvilla.github.io/gamesHtml/SnakeGameHTML/index.html",
          imageGame:snake,
          nameGame:"Snake",
         },
 
         {url:"https://jorgeisaacvilla.github.io/gamesHtml/FlappyDinoHTML/index.html",
          imageGame:dino,
-         nameGame:"dino",
+         nameGame:"Dino",
         },
       
     ];

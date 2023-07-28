@@ -12,31 +12,31 @@ function Menu2({sectionId}){
     image:imagen1,
     food:"Hamburguesa Rodeo",
     price:23000,
-    ingredients:"Pan | Tomate | Pollo | Quezo | Cebolla | Salsa"},
+    ingredients:"Pan | Tomate | Pollo | Queso | Cebolla | Salsa"},
 
     {pos:2,
     image:imagen2,
     food:"Hamburguesa Mexicana",
     price:18000,
-    ingredients:"Pan | Tomate | Pollo | Quezo | Cebolla | Salsa"},
+    ingredients:"Pan | Tomate | Pollo | Queso | Cebolla | Salsa"},
 
     {pos:3,
     image:imagen3,
     food:"Hamburguesa Asada",
     price:21900,
-    ingredients:"Carne a la parrilla | Papas | Gaseosa | Quezo Costeño"},
+    ingredients:"Carne a la parrilla | Papas | Gaseosa | Queso Costeño"},
 
     {pos:4,
     image:imagen4,
     food:"Hamburguesa Ranchera",
     price:28000,
-    ingredients:"Tomate | Pollo | Quezo | Cebolla | Carne de bufalo"},
+    ingredients:"Tomate | Pollo | Queso | Cebolla | Carne de Búfalo"},
 
     {pos:5,
     image:imagen5,
     food:"Hamburguesa Jumbo",
     price:42000,
-    ingredients:"Tomate | Tocineta | Quezo | Chicharron | Carne de bufalo"},
+    ingredients:"Tomate | Tocineta | Queso | Chicharron | Carne de Búfalo"},
     ]
     return(
         <>

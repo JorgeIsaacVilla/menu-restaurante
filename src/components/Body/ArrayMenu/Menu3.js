@@ -34,9 +34,9 @@ function Menu3({sectionId}){
 
     {pos:5,
     image:imagen5,
-    food:"Carne De Bufalo",
+    food:"Carne De Búfalo",
     price:72000,
-    ingredients:"Carne de bufalo| Papa fritas| Salsa chimichurry"},
+    ingredients:"Carne de Búfalo| Papa fritas| Salsa chimichurry"},
     ]
     return(
         <>
