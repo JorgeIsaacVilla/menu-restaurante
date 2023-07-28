@@ -35,7 +35,7 @@ function Menu1({sectionId}) {
 
         {pos:5,
         image:imagen5,
-        food:"Pizza Megicana",
+        food:"Pizza Mexicana",
         price:14000,
         ingredients:"Tomate | Queso | Pollo | Salchichon Picante"},
     ];
