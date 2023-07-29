@@ -25,7 +25,7 @@ function Menu1({sectionId}) {
         image:imagen3,
         food:"Pizza Mixta",
         price:47800,
-        ingredients:"Carnes | Vegetales | Salame | Cábano | Cebolla | Pimientón"},
+        ingredients:"Carnes | Vegetales | Salame | Cábano | Cebolla | Pimentón"},
 
         {pos:4,
         image:imagen4,
@@ -35,7 +35,7 @@ function Menu1({sectionId}) {
 
         {pos:5,
         image:imagen5,
-        food:"Pizza Megicana",
+        food:"Pizza Mexicana",
         price:14000,
         ingredients:"Tomate | Queso | Pollo | Salchichón Picante"},
     ];
