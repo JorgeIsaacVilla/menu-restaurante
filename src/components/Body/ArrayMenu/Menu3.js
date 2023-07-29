@@ -12,13 +12,13 @@ function Menu3({sectionId}){
     image:imagen1,
     food:"Lomo De Res",
     price:55000,
-    ingredients:"Carne de res | Yuca | Salsa Tartara"},
+    ingredients:"Carne de res | Yuca | Salsa Tártara"},
 
     {pos:2,
     image:imagen2,
     food:"Cañon De Cerdo",
     price:50000,
-    ingredients:"Carne de cerdo | Yuca | Salsa Tartar"},
+    ingredients:"Carne de cerdo | Yuca | Salsa Tártara"},
 
     {pos:3,
     image:imagen3,

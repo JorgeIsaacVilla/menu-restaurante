@@ -36,7 +36,7 @@ function Menu2({sectionId}){
     image:imagen5,
     food:"Hamburguesa Jumbo",
     price:42000,
-    ingredients:"Tomate | Tocineta | Queso | Chicharron | Carne de Búfalo"},
+    ingredients:"Tomate | Tocineta | Queso | Chicharrón | Carne de Búfalo"},
     ]
     return(
         <>

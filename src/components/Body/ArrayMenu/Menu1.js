@@ -19,7 +19,7 @@ function Menu1({sectionId}) {
         image:imagen2,
         food:"Pizza Colombiana",
         price:48600,
-        ingredients:"Salsa | Queso | chorizo | Maíz"},
+        ingredients:"Salsa | Queso | Chorizo | Maíz"},
 
         {pos:3,
         image:imagen3,
@@ -31,13 +31,13 @@ function Menu1({sectionId}) {
         image:imagen4,
         food:"Pizza Perro",
         price:17000,
-        ingredients:"Pollo | Jamon | Queso | Pimentón | Salchicas"},
+        ingredients:"Pollo | Jamón | Queso | Pimentón | Salchichas"},
 
         {pos:5,
         image:imagen5,
         food:"Pizza Megicana",
         price:14000,
-        ingredients:"Tomate | Queso | Pollo | Salchichon Picante"},
+        ingredients:"Tomate | Queso | Pollo | Salchichón Picante"},
     ];
 
     return(
